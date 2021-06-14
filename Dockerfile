@@ -1,4 +1,4 @@
-FROM circleci/node:14.15.4-browsers
+FROM ubuntu:18.04
 
 # Install latest git
 RUN \
