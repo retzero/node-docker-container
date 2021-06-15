@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   commit-message-check:
-    runs-on: [ linux ]
+    runs-on: [ ubuntu-latest ]
 
     steps:
       - name: Checkout
